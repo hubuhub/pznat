@@ -10,7 +10,7 @@ layout: default
                     
                  {% if page.image %} 
                     <span class="pinme">
-                        <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url={{site.url}}{{site.baseurl}}{{page.url}}&media={{site.url}}{{site.baseurl}}/{{page.image}}&description={{ page.title }}- {{ page.content | strip_html | truncatewords:25 }}"></a>
+                     
                     </span>
                     <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
                 {% endif %}
@@ -32,19 +32,12 @@ layout: default
                     
     				{{ content }}
                     
-                    {% if page.visit %}
-                    <p><a target="_blank" href="{{page.visit}}" class="btn btn-gray d-block font-weight-bold">
-                        Visit <i class="fas fa-external-link-alt"></i></a>
-                    </p>
-                    {% endif %}
-                    
                     {% for category in page.categories %}
                       <a class="btn btn-sm btn-primary mt-2" href="{{site.baseurl}}/categories.html#{{ category | downcase }}">
                         # {{ category | downcase }}
                       </a>
                     {% endfor %}
                     
-    				{% include comments.html %}
                     
     			</div>  
                     
