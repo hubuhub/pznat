@@ -2,8 +2,7 @@
 title:  "Как сделать диван из поддонов своими руками"
 metadate: "hide"
 categories: [ Дом, Декор ]
-image: "/assets/images/
-kak-sdelat-divan-iz-poddonov-svoimi-rukami-1.jpg"
+image: "/assets/images/kak-sdelat-divan-iz-poddonov-svoimi-rukami-1.jpg"
 ---
 Паллеты — деревянные, экологически чистые конструкции, получившие в последние годы широкое распространение. Изначально предназначались такие конструкции для перевозки и хранения грузов различного веса.
 
